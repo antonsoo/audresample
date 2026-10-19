@@ -63,7 +63,7 @@ def am_fm_synth(
 
 def remix(
     signal: np.ndarray,
-    channels: int | Sequence[int] | None = None,
+    channels: int | np.integer | Sequence[int] | None = None,
     mixdown: bool = False,
     *,
     upmix: str | None = None,
